@@ -1,0 +1,20 @@
+# Hello World
+GET http://localhost:5246/
+
+### PascalCase Test
+POST http://localhost:5246/pascal
+Content-Type: application/json
+
+{
+  "iAmPedroNull": "but I shall be null",
+  "IAmPedroPascal": "as in Pedro Pascal (Case)"
+}
+
+### camelCase Test
+POST http://localhost:5246/camel
+Content-Type: application/json
+
+{
+  "IShallBeNull": "but I have a value",
+  "iShallBeACamel": "..and always a camel"
+}
